@@ -1,1 +1,4 @@
-Migration
+Migration: 
+          We have a model and database . If their is change 
+          is model then database is not updated that's Migration synchronized
+           all the changes with database. 
