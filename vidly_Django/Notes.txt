@@ -2,3 +2,7 @@ Migration:
           We have a model and database . If their is change 
           is model then database is not updated that's Migration synchronized
            all the changes with database. 
+ Commands:
+     1) python manage.py makemigration
+     2) python manage.py migrate
+     3) added apps.movies.MoviesConfig to settings.py
