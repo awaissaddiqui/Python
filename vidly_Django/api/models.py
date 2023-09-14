@@ -8,3 +8,4 @@ class MovieResource(ModelResource):
      class Meta:
           queryset = Movie.objects.all() # It will return a query 
           resource_name = 'movies'
+          excludes = ['date_created']
